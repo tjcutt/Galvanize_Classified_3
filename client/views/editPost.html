@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="row">
+    <div class="form well">
+
+      <form ng-submit="$ctrl.updatePost()">
+
+        <div>
+          <label class="labelText" for="title">Title</label>
+          <br>
+          <input class="formText" id="title" class="form-control" ng-model="$ctrl.editedPost.title">
+        </div>
+
+        <div>
+          <label class="labelText" for="body">Description</label>
+          <br>
+          <textarea class="formText" id="body" class="form-control" ng-model="$ctrl.editedPost.description"></textarea>
+        </div>
+
+        <div>
+          <label class="labelText" for="price">Price</label>
+          <br>
+          <input class="formText" id="price" class="form-control" ng-model="$ctrl.editedPost.price">
+        </div>
+
+        <div>
+          <label class="labelText" for="item_image">Item Image</label>
+          <br>
+          <input class="formText" id="item-image" class="form-control" ng-model="$ctrl.editedPost.item_image">
+        </div>
+
+        <br>
+
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary btn-lg labelText">
+          Update Post
+        </button>
+        </div>
+        
+      </form>
+
+    </div>
+  </div>
+</div>

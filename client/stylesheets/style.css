@@ -1,0 +1,133 @@
+body {
+  background-color: rgba(0, 0, 0, 0.9)
+}
+
+.navbar {
+  background-color: rgba(107,	174,	252, 0.9);
+  border: none;
+}
+/*=======================================*/
+/*Content Styling*/
+
+.nav {
+  margin: 10px;
+}
+
+.dropdown, .dropdown-menu {
+  background-color: #8ED071;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #5BC5C8;
+}
+
+.filterText {
+  background-color: #8ED071;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin: 2px;
+  margin-right: 5px;
+}
+
+a:focus, a:hover {
+  color: #5BC5C8;
+}
+
+.btn {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.btn-primary:hover {
+  color:#6baefc;
+  background-color: #C5A7E2;
+}
+
+input:not(.filterText), textarea {
+  width: 70vw;
+}
+
+.form {
+  background-color: #6baefc;
+  border: none;
+  border-radius: 20px;
+}
+
+.post {
+  background-color: #C5A7E2;
+  border-radius: 20px;
+}
+
+img {
+  max-height: 250px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+/*=======================================*/
+/*Typography*/
+
+.title {
+  font-family: 'Faster One', sans-serif;
+  font-size: calc(28px + 1vw);
+}
+
+.navbar-default .navbar-brand {
+  color: #8ED071;
+  text-shadow:
+  -1px -1px 0 #8436A1,
+  1px -1px 0 #8436A1,
+  -1px 1px 0 #8436A1,
+  1px 1px 0 #8436A1;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #8436A1;
+  text-shadow:
+  -1px -1px 0 #8ED071,
+  1px -1px 0 #8ED071,
+  -1px 1px 0 #8ED071,
+  1px 1px 0 #8ED071;
+}
+
+.filterText, .labelText, .formText, .titleText, .priceText, .infoText, .otherText{
+  font-family: 'Bangers', sans-serif;
+  font-size: calc(18px + 0.5vw);
+}
+
+.filterText {
+  letter-spacing: calc(1px + 0.25vw)
+}
+
+.labelText {
+  letter-spacing: calc(1px + 0.25vw);
+  color: #8436A1;
+}
+
+.titleText {
+  letter-spacing: calc(1px + 0.25vw);
+  font-size: calc(26px + 0.5vw);
+  color: #8ED071;
+  /*color: white;*/
+  text-shadow:
+   -1px -1px 0 #8436A1,
+    1px -1px 0 #8436A1,
+    -1px 1px 0 #8436A1,
+     1px 1px 0 #8436A1;
+}
+
+.priceText {
+  font-size: calc(22px + 0.5vw)
+}
+
+.infoText {
+  color: #8436A1;
+  text-shadow: none;
+}
+
+.formText {
+  color: #6baefc;
+  text-shadow: none;
+}
